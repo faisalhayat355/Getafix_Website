@@ -95,9 +95,9 @@ const SignIn: NextPage = (props): JSX.Element => {
                 <Grid item lg={5.84} sm={4} xs={2.5} md={5.6}></Grid>
                 <Grid item xs={5}>
                   <img
-                    src="./images/loginlogo.png"
+                    src="./images/getafix.png"
                     alt="LoginImage"
-                    style={{ height: "9vh" }}
+                    style={{ height: "20vh" }}
                   />
                 </Grid>
               </Grid>
