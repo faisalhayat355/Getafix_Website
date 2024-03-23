@@ -50,14 +50,16 @@ const TopicContent = () => {
       </Grid>
     </Box>
     <Box mt={1.1}>
-        <Grid container style={{background: "linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(87, 53%, 83%, 1) 0%, hsla(0, 0%, 100%, 1) 36%, hsla(0, 0%, 100%, 1) 100%)",height:'62vh'}}>
-            <div style={{width:'33%',marginLeft:'33rem',marginTop:'1rem'}}>
+        <Grid container style={{height:'80vh'}}>
+            <div style={{width:'100%',marginTop:'0.1rem'}}>
                 <Carousel>
-                    <img src="./images/carousel/drawing.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
-                    <img src="./images/carousel/Group-37-1.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
-                    <img src="./images/carousel/Group-138.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
-                    <img src="./images/carousel/Group-138-1.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
-                    <img src="./images/carousel/Group-139.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
+                    <img src="./images/carousel/5.png" alt="image error" style={{ height: "79.7vh",width:'200vh' }}/>
+                    <img src="./images/carousel/6.png" alt="image error" style={{ height: "79.7vh",width:'200vh' }}/>
+                    <img src="./images/carousel/7.png" alt="image error" style={{ height: "79.7vh",width:'200vh' }}/>
+                    {/* <img src="./images/carousel/2.png" alt="image error" style={{ height: "55vh",width:'150vh' }}/> */}
+                    {/* <img src="./images/carousel/3.png" alt="image error" style={{ height: "55vh",width:'150vh' }}/> */}
+                    {/* <img src="./images/carousel/4.png" alt="image error" style={{ height: "55vh",width:'150vh' }}/> */}
+                    {/* <img src="./images/carousel/Group-139.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
                     <img src="./images/carousel/Group-139-1.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
                     <img src="./images/carousel/Group-140.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
                     <img src="./images/carousel/Group-141.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
@@ -65,7 +67,7 @@ const TopicContent = () => {
                     <img src="./images/carousel/Group-143.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
                     <img src="./images/carousel/Group-144.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
                     <img src="./images/carousel/interview.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
-                    <img src="./images/carousel/pods.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/>
+                    <img src="./images/carousel/pods.png" alt="image error" style={{ height: "55vh",width:'60vh' }}/> */}
                 </Carousel>
             </div>
         </Grid>

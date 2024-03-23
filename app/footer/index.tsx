@@ -7,18 +7,18 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 const Footer = () => {
   return (
     <>
-    <Box style={{background:'#1e2a5e',height:'4rem',display:'flex'}}>
+    <Box style={{background:'#1e2a5e',height:'5.5rem',display:'flex'}}>
       <Grid container >
         <Grid item xs={2}>
-          <Typography style={{color:"white",fontWeight:'bold',marginTop:'1rem'}}> Our Technology Partner:</Typography>
+          <Typography style={{color:"white",fontWeight:'bold',marginTop:'1.8rem'}}> Our Technology Partner:</Typography>
         </Grid>
         <Grid item xs={3}>
-        <img src="./images/footer/Main-Logo-Color-Cropped-Transparent-1-1024x333.png" alt="values" style={{ height: "7vh",marginLeft:'0.3rem'}}/>
+        <img src="./images/footer/Main-Logo-Color-Cropped-Transparent-1-1024x333.png" alt="values" style={{ height: "7vh",marginLeft:'0.3rem',marginTop:'0.8rem'}}/>
         </Grid>
         <Grid item xs={4}>
-        <Typography style={{color:"white",fontSize:'1.5rem',fontWeight:'bold',marginTop:'1rem'}}> Directorial Advisors</Typography>
+        <Typography style={{color:"white",fontSize:'1.5rem',fontWeight:'bold',marginTop:'1.8rem'}}> Directorial Advisors</Typography>
         </Grid>
-        <Grid item xs={3} style={{display:'flex',alignItems:'center'}}>
+        <Grid item xs={3} style={{display:'flex',alignItems:'center',marginTop:'0.7rem'}}>
         <Typography style={{color:"white",fontWeight:'bold'}}> Visitors:</Typography>
         <img src='./images/footer/visitors/0.gif' style={{height:'3vh',marginLeft:'1rem'}}/>
         <img src='./images/footer/visitors/0.gif' style={{height:'3vh'}}/>
@@ -29,7 +29,7 @@ const Footer = () => {
         </Grid>
       </Grid>
     </Box>
-    <Grid container>
+    <Grid container mt={2}>
       <Grid item xs={1}></Grid>
     <Grid item xs={4}>
       <Typography style={{fontSize:"1.3rem",fontWeight:'bold',color:'#1e2a5e'}}> Reach Us</Typography>
@@ -72,7 +72,7 @@ Address: OYO WORKSPACES INDIA PRIVATE <br></br> LIMITED Ranka Junction, AH45, Kr
     </Grid>
   </Grid>
 
-  <Grid item xs={12} style={{background:'#1e2a5e',padding:'10px'}}>
+  <Grid item xs={12} style={{background:'#1e2a5e',padding:'10px'}} mt={2}>
     <Typography style={{textAlign:'center',color:'white',fontSize:'0.75rem'}}>Copyright © 2024 Directorial Advisors</Typography>
   </Grid>
   </>
