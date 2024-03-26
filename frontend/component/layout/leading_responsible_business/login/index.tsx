@@ -55,7 +55,7 @@ const LeadingResponsibleBusiness = () => {
                   </Grid>
                   <Grid item xs={0.5}></Grid>
                   <Grid item xs={4} style={{marginTop:'-4rem'}}>
-                  <Link href="/company" style={{ textDecoration: "none" }}>
+                  <Link href="/corporate-leaders" style={{ textDecoration: "none" }}>
                   <img src="./images/directors_round.png" style={{height:'13vh',width:'65vh'}}/>
                   </Link>
                   </Grid>

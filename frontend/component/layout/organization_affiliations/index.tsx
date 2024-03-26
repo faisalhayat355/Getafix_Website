@@ -74,7 +74,7 @@ const OrganizationAffiliations = () => {
                 <Typography style={{textAlign:'center',fontSize:'2.2rem',fontWeight:'bold',color:'#1e2a5e'}}>Write to us</Typography>
                 </Grid>
               
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}> */}
                   <Grid container spacing={2} mt={"-2rem"}>               
                     <Grid item xs={1.5}></Grid>
                     <Grid item xs={3}>
@@ -97,7 +97,7 @@ const OrganizationAffiliations = () => {
                   <Grid item xs={2}>
                     <Button type='submit' variant='contained' style={{width:'90%',height:'6vh',background:'#87b14b',textTransform:'capitalize',fontSize:'1.2rem',fontWeight:'500'}}>Submit</Button>
                   </Grid>
-              </form>
+              {/* </form> */}
               <Grid item xs={11} >
                 <Typography style={{textAlign:'center',fontSize:'1.6rem',fontWeight:'bold',color:'#1e2a5e',marginLeft:'5rem'}}>Become part of the network of purposeful leaders transforming lives and helping our planet and communities thrive</Typography>
               </Grid>

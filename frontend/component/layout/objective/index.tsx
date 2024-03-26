@@ -5,11 +5,6 @@ const ObjectivePage = () => {
   return (
     <>
     <Box>
-      <Grid container >
-        
-      </Grid>
-    </Box>
-    <Box>
         <Grid container style={{background: "linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 1) 63%, hsla(87, 53%, 83%, 1) 100%)",height:'72vh'}}>
         <Grid item xs={2} style={{marginLeft:'40rem',marginTop:'1rem'}} >
                 <Typography style={{background:'#1e2a5e',textAlign:'center',color:'white',fontSize:'1.5rem',borderRadius:'8px',marginTop:'1rem',padding:'0.6rem',fontWeight:'bold'}}>Objective</Typography>   

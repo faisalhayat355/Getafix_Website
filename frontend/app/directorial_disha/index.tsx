@@ -52,7 +52,6 @@ const DirectorialDisha = () => {
             </Grid>
         </Grid>
 
-
         <Grid container style={{background:'#1e2a5e',padding:'1rem',alignItems:'center'}} mt={2}>
             <Grid item lg={2.5}>
                 <Typography color={"white"} style={{textAlign:'center',fontWeight:'bold'}}>Our Technology Partner:</Typography>
@@ -73,10 +72,6 @@ const DirectorialDisha = () => {
             <img src="./images/footer/visitors/7.gif"/>
             </Grid>
         </Grid>
-
-
-
-
         <Grid container>
             <Grid item xs={1.5}></Grid>
             <Grid item lg={4.5} xs={12}>
@@ -184,7 +179,7 @@ const DirectorialDisha = () => {
                 </Grid>
             </Grid>
         </Grid>
-        
+
         <Grid container style={{background:'#1e2a5e',padding:'0.4rem',alignItems:'center'}} mt={2}>
             <Grid item lg={12}>
                 <Typography color={"white"} style={{textAlign:'center',fontSize:'0.8rem'}}>Copyright © 2024 Directorial Advisors</Typography>
