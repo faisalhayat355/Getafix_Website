@@ -49,7 +49,7 @@ const LeadingResponsibleBusiness = () => {
               <Grid container spacing={2}>               
                 <Grid item xs={1.5}></Grid>
                 <Grid item xs={4} style={{marginTop:'-4rem'}}>
-                <Link href="/company" style={{ textDecoration: "none" }}>
+                <Link href="/directorial_disha" style={{ textDecoration: "none" }}>
                     <img src="./images/directorial_disha.png" style={{height:'13vh',width:'65vh'}}/>
                   </Link>
                   </Grid>

@@ -1,5 +1,3 @@
-
-
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { PrismaAdapter } from "@next-auth/prisma-adapter"
@@ -19,16 +17,12 @@ const authOptions: NextAuthOptions = {
           email: string;
           password: string;
         };
-        // perform you login logic
-        // find out user from db
         if (email !== "getafix@gmail.com" || password !== "1234") {
           throw new Error("invalid credentials");
         }
-
-        // if everything is fine
         return {
           id: "1234",
-          name: "Piraji survase",
+          name: "Faisal Hayat",
           email: "getafix@gmail.com",
           role: "admin",
         };
@@ -37,20 +31,8 @@ const authOptions: NextAuthOptions = {
   ],
   pages: {
     signIn: "/login",
-    // error: '/auth/error',
-    // signOut: '/auth/signout'
   },
   session: { strategy: "jwt" },
-  // callbacks: {
-  //   jwt(params) {
-  //     // update token
-  //     if (params.user?.role) {
-  //       params.token.role = params.user.role;
-  //     }
-  //     // return final_token
-  //     return params.token;
-  //   },
-  // },
 };
 
 export default NextAuth(authOptions);
